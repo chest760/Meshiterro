@@ -25,3 +25,13 @@ rails active_storage:install
 ```
 rails db:migrate
 ```
+
+#### 1.3 Gemを導入する
+・Gemfileに以下のコメントアウトを解除
+```
+# gem 'image_processing', '~>1.2'
+```
+・「image_processing」を使える状態にするために以下のコマンドを実行
+```
+bundle install
+```
